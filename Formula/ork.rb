@@ -1,28 +1,28 @@
 class Ork < Formula
-  desc "The Kubernetes operator framework that needs no Go"
+  desc "The Kubernetes operator runtime that needs no programming language"
   homepage "https://github.com/iAlexeze/orkestra"
-  version "0.1.1"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
-    on_arm do
-      url "https://github.com/iAlexeze/orkestra/releases/download/v0.1.1/ork_darwin_arm64.tar.gz"
-      sha256 "b488e1d195144d6d8bbe25edd46327592369140967e4d955ed1ed07b85a6dd42"
+    on_arm   do
+      url    "https://github.com/iAlexeze/orkestra/releases/download/v0.1.3/ork_darwin_arm64.tar.gz"
+      sha256 "dd7377b02fd3915384e0683670673a9387bc2f4cca9bc3f7ce199f22ea52e921"
     end
     on_intel do
-      url "https://github.com/iAlexeze/orkestra/releases/download/v0.1.1/ork_darwin_amd64.tar.gz"
-      sha256 "f8a011675455bb257ef0a8984f071d365dd7463b93be5adf12cb5d2ccee99f72"
+      url    "https://github.com/iAlexeze/orkestra/releases/download/v0.1.3/ork_darwin_amd64.tar.gz"
+      sha256 "00ffc14e01f941f9c235a08f25c2f89673c74d4c247bf9e3a65d999520b90ca5"
     end
   end
 
   on_linux do
-    on_arm do
-      url "https://github.com/iAlexeze/orkestra/releases/download/v0.1.1/ork_linux_arm64.tar.gz"
-      sha256 "62a5e38a3d9bdd7446cde7d6cec9e92dea12ca33a585822a302cc2f049904088"
+    on_arm   do
+      url    "https://github.com/iAlexeze/orkestra/releases/download/v0.1.3/ork_linux_arm64.tar.gz"
+      sha256 "ca3225e7b928901c5831e8ae87b6337f6e9b08b4fb7c16c8e7662ac6f69ab4da"
     end
     on_intel do
-      url "https://github.com/iAlexeze/orkestra/releases/download/v0.1.1/ork_linux_amd64.tar.gz"
-      sha256 "d9d4d5d1e20cf60ff4fbf582eb1603983b55969b6c2b0aecd5ec69d62b45058a"
+      url    "https://github.com/iAlexeze/orkestra/releases/download/v0.1.3/ork_linux_amd64.tar.gz"
+      sha256 "667de72deddecb645920e6210d8f2ff8467b8069a51cd56dc72a1a7111603c07"
     end
   end
 
