@@ -6,21 +6,21 @@ class Ork < Formula
   on_macos do
     on_arm do
       url    "https://github.com/orkspace/orkestra/releases/download/v0.3.9/ork_darwin_arm64.tar.gz"
-      sha256 "b2d11d3622e1cb1a04bcf64c05cd1fad13c426c64dc9baa799315a7580f6fdbd"
+      sha256 "1dbfb8d91748b479ae6101cb2f84edcf9c97195bfb209a51583142c571b9c8f9"
     end
     on_intel do
       url    "https://github.com/orkspace/orkestra/releases/download/v0.3.9/ork_darwin_amd64.tar.gz"
-      sha256 "067c8063e1d19c6a289f1d0437df28f1492a9bd084e7e197c54b139aaae88c30"
+      sha256 "4f8eb803c6b73138628c0cee4e87fe633aecadf8cb2a0ff321b9058fd3012693"
     end
   end
   on_linux do
     on_arm do
       url    "https://github.com/orkspace/orkestra/releases/download/v0.3.9/ork_linux_arm64.tar.gz"
-      sha256 "f0b7532e823c826d18616ee9cc7f8ee01037aa6bc927405325abb264d15ad047"
+      sha256 "4a42c7e54e7650c35f2504c1646912515a4a4e3efb0a0bf490c00fdab75b0df4"
     end
     on_intel do
       url    "https://github.com/orkspace/orkestra/releases/download/v0.3.9/ork_linux_amd64.tar.gz"
-      sha256 "bd577bda9bdb3d832f908ce6292db3a46d3abd6b7f091331fb94df48fd4f94cd"
+      sha256 "eb48e7ed4fbf6439e583907c6aa4762df1741b6c1113cbb7d69043f9bf9dfeba"
     end
   end
   def install
