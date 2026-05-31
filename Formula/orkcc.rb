@@ -1,26 +1,26 @@
 class OrkCc < Formula
   desc "Web-based Control Center for Orkestra - visualize and manage your operators"
   homepage "https://github.com/orkspace/orkestra"
-  version "0.6.2"
+  version "0.6.3"
   license "Apache 2.0"
   on_macos do
     on_arm do
-      url    "https://github.com/orkspace/orkestra/releases/download/v0.6.2/orkcc_darwin_arm64.tar.gz"
-      sha256 "601722d1798fe41a50daf32e43b9bfbb69b90ede9cafbaaee2e66229f6c6609d"
+      url    "https://github.com/orkspace/orkestra/releases/download/v0.6.3/orkcc_darwin_arm64.tar.gz"
+      sha256 "fcfab79377883410b172480afe9385958c76d587225986a1520d8f905e748dff"
     end
     on_intel do
-      url    "https://github.com/orkspace/orkestra/releases/download/v0.6.2/orkcc_darwin_amd64.tar.gz"
-      sha256 "9d2be3c5b44d1442528eac1f5dfb99b907902ac54746456d70ce604a1c59505c"
+      url    "https://github.com/orkspace/orkestra/releases/download/v0.6.3/orkcc_darwin_amd64.tar.gz"
+      sha256 "ecb35140c79bd1fb1ac693b1e24946eb1cfc31bfcd4dc47f4cde5018f92b6c9a"
     end
   end
   on_linux do
     on_arm do
-      url    "https://github.com/orkspace/orkestra/releases/download/v0.6.2/orkcc_linux_arm64.tar.gz"
-      sha256 "370af305c9c9e2f1fa85c2ae41d027589ebbb7e7fbc1dacec571810e4617ffde"
+      url    "https://github.com/orkspace/orkestra/releases/download/v0.6.3/orkcc_linux_arm64.tar.gz"
+      sha256 "3e34dd94c708febe115c09a05218d7c8bbe86c829cdff95d25993f61cdde6c06"
     end
     on_intel do
-      url    "https://github.com/orkspace/orkestra/releases/download/v0.6.2/orkcc_linux_amd64.tar.gz"
-      sha256 "d051badbd9db56ad343d83cfbe47b8922adf4013acf5b0773630c2012e8acda4"
+      url    "https://github.com/orkspace/orkestra/releases/download/v0.6.3/orkcc_linux_amd64.tar.gz"
+      sha256 "0933a509ddcd4491e12852fc0e99a822ddce6b8943567ac855cbe56487334b04"
     end
   end
   def install
