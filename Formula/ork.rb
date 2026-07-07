@@ -1,26 +1,26 @@
 class Ork < Formula
   desc "Declarative Runtime for Kubernetes Operators"
   homepage "https://github.com/orkspace/orkestra"
-  version "0.7.9"
+  version "0.7.10"
   license "Apache 2.0"
   on_macos do
     on_arm do
-      url    "https://github.com/orkspace/orkestra/releases/download/v0.7.9/ork_darwin_arm64.tar.gz"
-      sha256 "1b98d0d100d0ae03ee0223ae70bb96424b8e1a5154d070678c8ebe29a0afa140"
+      url    "https://github.com/orkspace/orkestra/releases/download/v0.7.10/ork_darwin_arm64.tar.gz"
+      sha256 "783d6ba9f3d4aa150a06716ec1179a1bff4516d2c128152062ff8eb0e7784c9b"
     end
     on_intel do
-      url    "https://github.com/orkspace/orkestra/releases/download/v0.7.9/ork_darwin_amd64.tar.gz"
-      sha256 "1f6ac16773500d41d14e867e364015638069a22dfc3966a4839eb51882a9237c"
+      url    "https://github.com/orkspace/orkestra/releases/download/v0.7.10/ork_darwin_amd64.tar.gz"
+      sha256 "4a2b0020624556e50c6f0a281a1505e411752b5ccf7b5ddef3550f80fd6899f2"
     end
   end
   on_linux do
     on_arm do
-      url    "https://github.com/orkspace/orkestra/releases/download/v0.7.9/ork_linux_arm64.tar.gz"
-      sha256 "d6a6a4e68167d6d30fba1bf277e6bbf684a4a0bf91bb8d680c35fecd0dea6f59"
+      url    "https://github.com/orkspace/orkestra/releases/download/v0.7.10/ork_linux_arm64.tar.gz"
+      sha256 "4b2d52e5f37bae0772ad9210f6ab626e4ae158d10d7efcc9a6eacfba8afadada"
     end
     on_intel do
-      url    "https://github.com/orkspace/orkestra/releases/download/v0.7.9/ork_linux_amd64.tar.gz"
-      sha256 "dd06cf049d4df0dcc734e70fb6f979303c2deaa3b7e6800667a11f0baca57a91"
+      url    "https://github.com/orkspace/orkestra/releases/download/v0.7.10/ork_linux_amd64.tar.gz"
+      sha256 "06739e3af9bc1532c4261c86bfbb002e294b293fe4ebcb5831b0e117370fafdf"
     end
   end
   def install
